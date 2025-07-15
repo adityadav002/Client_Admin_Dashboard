@@ -1,0 +1,67 @@
+/**
+ * SubscriberList.css
+ *
+ * @format
+ */
+
+.subscriber-list-section {
+  padding: 5rem 0;
+  background-color: #f9fafb;
+}
+
+.subscriber-list-container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.subscriber-list-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.no-subscribers {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.subscriber-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscriber-item {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.subscriber-email {
+  color: #374151;
+  font-size: 1rem;
+}
+
+.subscriber-delete-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.subscriber-delete-button:hover {
+  background-color: #dc2626;
+}
